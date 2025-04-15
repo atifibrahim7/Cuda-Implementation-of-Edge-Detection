@@ -51,3 +51,14 @@ Make sure you have CUDA installed.
 
 ```bash
 make
+```
+
+Run: Execute the compiled program
+```bash
+make run
+```
+
+Alternatively : 
+```bash
+./canny <image_path.pgm> <sigma> <tlow> <thigh>
+```
